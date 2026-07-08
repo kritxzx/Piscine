@@ -12,11 +12,13 @@
 
 #include <unistd.h>
 
-void print(char c){
-    write(1, &c, 1);
+void	print(char c)
+{
+	write(1, &c, 1);
 }
 
-int main(){
-    print('A');
-    return 0;
+int	main(void)
+{
+	print('A');
+	return (0);
 }
